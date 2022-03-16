@@ -1,0 +1,549 @@
+Script started on Wed Mar 16 16:17:04 2022
+Restored session: miércoles, 16 de marzo de 2022, 16:16:49 CET
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-de-Cristina-3.local/Users/cristinasintesgarcia[0m[27m[24m[J(base) cristinasintesgarcia@MacBook-Pro-de-Cristina-3 ~ % [K[?2004hggit clone [7mhttps://gith[7mu[7mb.com/crsintes/filosofos.git[27m[K[A[39C[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mhu[27mb[27m.[27mc[27mo[27mm[27m/[27mc[27mr[27ms[27mi[27mn[27mt[27me[27ms[27m/[27mf[27mi[27ml[27mo[27ms[27mo[27mf[27mo[27ms[27m.[27mg[27mi[27mt[?2004l
+Cloning into 'filosofos'...
+remote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+Receiving objects:  20% (1/5)Receiving objects:  40% (2/5)Receiving objects:  60% (3/5)remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Receiving objects:  80% (4/5)Receiving objects: 100% (5/5)Receiving objects: 100% (5/5), 13.45 KiB | 459.00 KiB/s, done.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-de-Cristina-3.local/Users/cristinasintesgarcia[0m[27m[24m[J(base) cristinasintesgarcia@MacBook-Pro-de-Cristina-3 ~ % [K[?2004hccd filosofos[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-de-Cristina-3.local/Users/cristinasintesgarcia/filosofos[0m[27m[24m[J(base) cristinasintesgarcia@MacBook-Pro-de-Cristina-3 filosofos % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-de-Cristina-3.local/Users/cristinasintesgarcia/filosofos[0m[27m[24m[J(base) cristinasintesgarcia@MacBook-Pro-de-Cristina-3 filosofos % [K[?2004hggit commit -m  [K""Subiendo practoc  ica"[?2004l
+[master c67f673] Subiendo practica
+ 4 files changed, 220 insertions(+)
+ create mode 100644 06_phil.py
+ create mode 100644 07_phil.py
+ create mode 100644 08_phil.py
+ create mode 100644 monitor.py
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-de-Cristina-3.local/Users/cristinasintesgarcia/filosofos[0m[27m[24m[J(base) cristinasintesgarcia@MacBook-Pro-de-Cristina-3 filosofos % [K[?2004hggit ps ush[?2004l
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 1.69 KiB | 1.69 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), done.[K
+To https://github.com/crsintes/filosofos.git
+   d95321d..c67f673  master -> master
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-de-Cristina-3.local/Users/cristinasintesgarcia/filosofos[0m[27m[24m[J(base) cristinasintesgarcia@MacBook-Pro-de-Cristina-3 filosofos % [K[?2004hppython3 08_phi [Kll.py[?2004l
+Philosofer 3 thinking 0
+Philosofer 3 wants to eat 0
+Philosofer 0 thinking 0
+Philosofer 0 wants to eat 0
+Philosofer 2 thinking 0
+Philosofer 3 eating 0
+Philosofer 1 thinking 0
+Philosofer 1 wants to eat 0
+Philosofer 2 wants to eat 0
+Philosofer 0 eating 0
+Philosofer 3 stops eating 0
+Philosofer 3 thinking 1
+Philosofer 3 wants to eat 1
+Philosofer 2 eating 0
+Philosofer 0 stops eating 0
+Philosofer 0 thinking 1
+Philosofer 0 wants to eat 1
+Philosofer 4 thinking 0
+Philosofer 4 wants to eat 0
+Philosofer 4 eating 0
+Philosofer 4 stops eating 0
+Philosofer 4 thinking 1
+Philosofer 4 wants to eat 1
+Philosofer 4 eating 1
+Philosofer 4 stops eating 1
+Philosofer 4 thinking 2
+Philosofer 4 wants to eat 2
+Philosofer 4 eating 2
+Philosofer 4 stops eating 2
+Philosofer 4 thinking 3
+Philosofer 4 wants to eat 3
+Philosofer 4 eating 3
+Philosofer 4 stops eating 3
+Philosofer 4 thinking 4
+Philosofer 4 wants to eat 4
+Philosofer 4 eating 4
+Philosofer 4 stops eating 4
+Philosofer 4 thinking 5
+Philosofer 4 wants to eat 5
+Philosofer 4 eating 5
+Philosofer 4 stops eating 5
+Philosofer 4 thinking 6
+Philosofer 4 wants to eat 6
+Philosofer 4 eating 6
+Philosofer 4 stops eating 6
+Philosofer 4 thinking 7
+Philosofer 4 wants to eat 7
+Philosofer 4 eating 7
+Philosofer 4 stops eating 7
+Philosofer 4 thinking 8
+Philosofer 4 wants to eat 8
+Philosofer 4 eating 8
+Philosofer 4 stops eating 8
+Philosofer 4 thinking 9
+Philosofer 4 wants to eat 9
+Philosofer 4 eating 9
+Philosofer 4 stops eating 9
+Philosofer 4 thinking 10
+Philosofer 4 wants to eat 10
+Philosofer 4 eating 10
+Philosofer 4 stops eating 10
+Philosofer 4 thinking 11
+Philosofer 4 wants to eat 11
+Philosofer 4 eating 11
+Philosofer 4 stops eating 11
+Philosofer 4 thinking 12
+Philosofer 4 wants to eat 12
+Philosofer 4 eating 12
+Philosofer 4 stops eating 12
+Philosofer 4 thinking 13
+Philosofer 4 wants to eat 13
+Philosofer 4 eating 13
+Philosofer 4 stops eating 13
+Philosofer 4 thinking 14
+Philosofer 4 wants to eat 14
+Philosofer 4 eating 14
+Philosofer 4 stops eating 14
+Philosofer 4 thinking 15
+Philosofer 4 wants to eat 15
+Philosofer 4 eating 15
+Philosofer 4 stops eating 15
+Philosofer 4 thinking 16
+Philosofer 4 wants to eat 16
+Philosofer 4 eating 16
+Philosofer 4 stops eating 16
+Philosofer 4 thinking 17
+Philosofer 4 wants to eat 17
+Philosofer 4 eating 17
+Philosofer 4 stops eating 17
+Philosofer 4 thinking 18
+Philosofer 4 wants to eat 18
+Philosofer 4 eating 18
+Philosofer 4 stops eating 18
+Philosofer 4 thinking 19
+Philosofer 4 wants to eat 19
+Philosofer 4 eating 19
+Philosofer 4 stops eating 19
+Philosofer 4 thinking 20
+Philosofer 4 wants to eat 20
+Philosofer 4 eating 20
+Philosofer 4 stops eating 20
+Philosofer 4 thinking 21
+Philosofer 4 wants to eat 21
+Philosofer 4 eating 21
+Philosofer 4 stops eating 21
+Philosofer 4 thinking 22
+Philosofer 4 wants to eat 22
+Philosofer 4 eating 22
+Philosofer 4 stops eating 22
+Philosofer 4 thinking 23
+Philosofer 4 wants to eat 23
+Philosofer 4 eating 23
+Philosofer 4 stops eating 23
+Philosofer 4 thinking 24
+Philosofer 4 wants to eat 24
+Philosofer 4 eating 24
+Philosofer 4 stops eating 24
+Philosofer 4 thinking 25
+Philosofer 4 wants to eat 25
+Philosofer 4 eating 25
+Philosofer 4 stops eating 25
+Philosofer 4 thinking 26
+Philosofer 4 wants to eat 26
+Philosofer 4 eating 26
+Philosofer 4 stops eating 26
+Philosofer 4 thinking 27
+Philosofer 4 wants to eat 27
+Philosofer 4 eating 27
+Philosofer 4 stops eating 27
+Philosofer 4 thinking 28
+Philosofer 4 wants to eat 28
+Philosofer 4 eating 28
+Philosofer 4 stops eating 28
+Philosofer 4 thinking 29
+Philosofer 4 wants to eat 29
+Philosofer 4 eating 29
+Philosofer 4 stops eating 29
+Philosofer 4 thinking 30
+Philosofer 4 wants to eat 30
+Philosofer 4 eating 30
+Philosofer 4 stops eating 30
+Philosofer 4 thinking 31
+Philosofer 4 wants to eat 31
+Philosofer 4 eating 31
+Philosofer 4 stops eating 31
+Philosofer 4 thinking 32
+Philosofer 4 wants to eat 32
+Philosofer 4 eating 32
+Philosofer 4 stops eating 32
+Philosofer 4 thinking 33
+Philosofer 4 wants to eat 33
+Philosofer 4 eating 33
+Philosofer 4 stops eating 33
+Philosofer 4 thinking 34
+Philosofer 4 wants to eat 34
+Philosofer 4 eating 34
+Philosofer 4 stops eating 34
+Philosofer 4 thinking 35
+Philosofer 4 wants to eat 35
+Philosofer 4 eating 35
+Philosofer 4 stops eating 35
+Philosofer 4 thinking 36
+Philosofer 4 wants to eat 36
+Philosofer 4 eating 36
+Philosofer 4 stops eating 36
+Philosofer 4 thinking 37
+Philosofer 4 wants to eat 37
+Philosofer 4 eating 37
+Philosofer 4 stops eating 37
+Philosofer 4 thinking 38
+Philosofer 4 wants to eat 38
+Philosofer 4 eating 38
+Philosofer 4 stops eating 38
+Philosofer 4 thinking 39
+Philosofer 4 wants to eat 39
+Philosofer 4 eating 39
+Philosofer 4 stops eating 39
+Philosofer 4 thinking 40
+Philosofer 4 wants to eat 40
+Philosofer 4 eating 40
+Philosofer 4 stops eating 40
+Philosofer 4 thinking 41
+Philosofer 4 wants to eat 41
+Philosofer 4 eating 41
+Philosofer 4 stops eating 41
+Philosofer 4 thinking 42
+Philosofer 4 wants to eat 42
+Philosofer 4 eating 42
+Philosofer 4 stops eating 42
+Philosofer 4 thinking 43
+Philosofer 4 wants to eat 43
+Philosofer 4 eating 43
+Philosofer 4 stops eating 43
+Philosofer 4 thinking 44
+Philosofer 4 wants to eat 44
+Philosofer 4 eating 44
+Philosofer 4 stops eating 44
+Philosofer 4 thinking 45
+Philosofer 4 wants to eat 45
+Philosofer 4 eating 45
+Philosofer 4 stops eating 45
+Philosofer 4 thinking 46
+Philosofer 4 wants to eat 46
+Philosofer 4 eating 46
+Philosofer 4 stops eating 46
+Philosofer 4 thinking 47
+Philosofer 4 wants to eat 47
+Philosofer 4 eating 47
+Philosofer 4 stops eating 47
+Philosofer 4 thinking 48
+Philosofer 4 wants to eat 48
+Philosofer 4 eating 48
+Philosofer 4 stops eating 48
+Philosofer 4 thinking 49
+Philosofer 4 wants to eat 49
+Philosofer 4 eating 49
+Philosofer 4 stops eating 49
+Philosofer 4 thinking 50
+Philosofer 4 wants to eat 50
+Philosofer 4 eating 50
+Philosofer 4 stops eating 50
+Philosofer 4 thinking 51
+Philosofer 4 wants to eat 51
+Philosofer 4 eating 51
+Philosofer 4 stops eating 51
+Philosofer 4 thinking 52
+Philosofer 4 wants to eat 52
+Philosofer 4 eating 52
+Philosofer 4 stops eating 52
+Philosofer 4 thinking 53
+Philosofer 4 wants to eat 53
+Philosofer 4 eating 53
+Philosofer 4 stops eating 53
+Philosofer 4 thinking 54
+Philosofer 4 wants to eat 54
+Philosofer 4 eating 54
+Philosofer 4 stops eating 54
+Philosofer 4 thinking 55
+Philosofer 4 wants to eat 55
+Philosofer 4 eating 55
+Philosofer 4 stops eating 55
+Philosofer 4 thinking 56
+Philosofer 4 wants to eat 56
+Philosofer 4 eating 56
+Philosofer 4 stops eating 56
+Philosofer 4 thinking 57
+Philosofer 4 wants to eat 57
+Philosofer 4 eating 57
+Philosofer 4 stops eating 57
+Philosofer 4 thinking 58
+Philosofer 4 wants to eat 58
+Philosofer 4 eating 58
+Philosofer 4 stops eating 58
+Philosofer 4 thinking 59
+Philosofer 4 wants to eat 59
+Philosofer 4 eating 59
+Philosofer 4 stops eating 59
+Philosofer 4 thinking 60
+Philosofer 4 wants to eat 60
+Philosofer 4 eating 60
+Philosofer 4 stops eating 60
+Philosofer 4 thinking 61
+Philosofer 4 wants to eat 61
+Philosofer 4 eating 61
+Philosofer 4 stops eating 61
+Philosofer 4 thinking 62
+Philosofer 4 wants to eat 62
+Philosofer 4 eating 62
+Philosofer 4 stops eating 62
+Philosofer 4 thinking 63
+Philosofer 4 wants to eat 63
+Philosofer 4 eating 63
+Philosofer 4 stops eating 63
+Philosofer 4 thinking 64
+Philosofer 4 wants to eat 64
+Philosofer 4 eating 64
+Philosofer 4 stops eating 64
+Philosofer 4 thinking 65
+Philosofer 4 wants to eat 65
+Philosofer 4 eating 65
+Philosofer 4 stops eating 65
+Philosofer 4 thinking 66
+Philosofer 4 wants to eat 66
+Philosofer 4 eating 66
+Philosofer 4 stops eating 66
+Philosofer 4 thinking 67
+Philosofer 4 wants to eat 67
+Philosofer 4 eating 67
+Philosofer 4 stops eating 67
+Philosofer 4 thinking 68
+Philosofer 4 wants to eat 68
+Philosofer 4 eating 68
+Philosofer 4 stops eating 68
+Philosofer 4 thinking 69
+Philosofer 4 wants to eat 69
+Philosofer 4 eating 69
+Philosofer 4 stops eating 69
+Philosofer 4 thinking 70
+Philosofer 4 wants to eat 70
+Philosofer 4 eating 70
+Philosofer 4 stops eating 70
+Philosofer 4 thinking 71
+Philosofer 4 wants to eat 71
+Philosofer 4 eating 71
+Philosofer 4 stops eating 71
+Philosofer 4 thinking 72
+Philosofer 4 wants to eat 72
+Philosofer 4 eating 72
+Philosofer 4 stops eating 72
+Philosofer 4 thinking 73
+Philosofer 4 wants to eat 73
+Philosofer 4 eating 73
+Philosofer 4 stops eating 73
+Philosofer 4 thinking 74
+Philosofer 4 wants to eat 74
+Philosofer 4 eating 74
+Philosofer 4 stops eating 74
+Philosofer 4 thinking 75
+Philosofer 4 wants to eat 75
+Philosofer 4 eating 75
+Philosofer 4 stops eating 75
+Philosofer 4 thinking 76
+Philosofer 4 wants to eat 76
+Philosofer 4 eating 76
+Philosofer 4 stops eating 76
+Philosofer 4 thinking 77
+Philosofer 4 wants to eat 77
+Philosofer 4 eating 77
+Philosofer 4 stops eating 77
+Philosofer 4 thinking 78
+Philosofer 4 wants to eat 78
+Philosofer 4 eating 78
+Philosofer 4 stops eating 78
+Philosofer 4 thinking 79
+Philosofer 4 wants to eat 79
+Philosofer 4 eating 79
+Philosofer 4 stops eating 79
+Philosofer 4 thinking 80
+Philosofer 4 wants to eat 80
+Philosofer 4 eating 80
+Philosofer 4 stops eating 80
+Philosofer 4 thinking 81
+Philosofer 4 wants to eat 81
+Philosofer 4 eating 81
+Philosofer 4 stops eating 81
+Philosofer 4 thinking 82
+Philosofer 4 wants to eat 82
+Philosofer 4 eating 82
+Philosofer 4 stops eating 82
+Philosofer 4 thinking 83
+Philosofer 4 wants to eat 83
+Philosofer 4 eating 83
+Philosofer 4 stops eating 83
+Philosofer 4 thinking 84
+Philosofer 4 wants to eat 84
+Philosofer 4 eating 84
+Philosofer 4 stops eating 84
+Philosofer 4 thinking 85
+Philosofer 4 wants to eat 85
+Philosofer 4 eating 85
+Philosofer 4 stops eating 85
+Philosofer 4 thinking 86
+Philosofer 4 wants to eat 86
+Philosofer 4 eating 86
+Philosofer 4 stops eating 86
+Philosofer 4 thinking 87
+Philosofer 4 wants to eat 87
+Philosofer 4 eating 87
+Philosofer 4 stops eating 87
+Philosofer 4 thinking 88
+Philosofer 4 wants to eat 88
+Philosofer 4 eating 88
+Philosofer 4 stops eating 88
+Philosofer 4 thinking 89
+Philosofer 4 wants to eat 89
+Philosofer 4 eating 89
+Philosofer 4 stops eating 89
+Philosofer 4 thinking 90
+Philosofer 4 wants to eat 90
+Philosofer 4 eating 90
+Philosofer 4 stops eating 90
+Philosofer 4 thinking 91
+Philosofer 4 wants to eat 91
+Philosofer 4 eating 91
+Philosofer 4 stops eating 91
+Philosofer 4 thinking 92
+Philosofer 4 wants to eat 92
+Philosofer 4 eating 92
+Philosofer 4 stops eating 92
+Philosofer 4 thinking 93
+Philosofer 4 wants to eat 93
+Philosofer 4 eating 93
+Philosofer 4 stops eating 93
+Philosofer 4 thinking 94
+Philosofer 4 wants to eat 94
+Philosofer 4 eating 94
+Philosofer 4 stops eating 94
+Philosofer 4 thinking 95
+Philosofer 4 wants to eat 95
+Philosofer 4 eating 95
+Philosofer 4 stops eating 95
+Philosofer 4 thinking 96
+Philosofer 4 wants to eat 96
+Philosofer 4 eating 96
+Philosofer 4 stops eating 96
+Philosofer 4 thinking 97
+Philosofer 4 wants to eat 97
+Philosofer 4 eating 97
+Philosofer 4 stops eating 97
+Philosofer 4 thinking 98
+Philosofer 4 wants to eat 98
+Philosofer 4 eating 98
+Philosofer 4 stops eating 98
+Philosofer 4 thinking 99
+Philosofer 4 wants to eat 99
+Philosofer 4 eating 99
+Philosofer 4 stops eating 99
+Philosofer 4 thinking 100
+Philosofer 4 wants to eat 100
+Philosofer 4 eating 100
+Philosofer 4 stops eating 100
+^CTraceback (most recent call last):
+  File "08_phil.py", line 43, in <module>
+    main()
+  File "08_phil.py", line 39, in main
+    philosofers[i].join()
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 47, in wait
+    return self.poll(os.WNOHANG if timeout == 0.0 else 0)
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 27, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
+Process Process-5:
+Process Process-4:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/cristinasintesgarcia/filosofos/08_phil.py", line 24, in philosopher_task
+    cheat.wants_think(num)
+  File "/Users/cristinasintesgarcia/filosofos/monitor.py", line 51, in wants_think
+    self.think_free.wait_for(lambda: self.can_think())
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/synchronize.py", line 313, in wait_for
+    self.wait(waittime)
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/synchronize.py", line 261, in wait
+    return self._wait_semaphore.acquire(True, timeout)
+KeyboardInterrupt
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/cristinasintesgarcia/filosofos/08_phil.py", line 19, in philosopher_task
+    table.wants_eat(num)
+  File "/Users/cristinasintesgarcia/filosofos/monitor.py", line 77, in wants_eat
+    self.fork_free.wait_for(lambda: self.can_eat())
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/synchronize.py", line 313, in wait_for
+    self.wait(waittime)
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/synchronize.py", line 261, in wait
+    return self._wait_semaphore.acquire(True, timeout)
+KeyboardInterrupt
+^CError in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 27, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
+Process Process-2:
+Process Process-3:
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/synchronize.py", line 261, in wait
+    return self._wait_semaphore.acquire(True, timeout)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/cristinasintesgarcia/filosofos/08_phil.py", line 19, in philosopher_task
+    table.wants_eat(num)
+  File "/Users/cristinasintesgarcia/filosofos/monitor.py", line 77, in wants_eat
+    self.fork_free.wait_for(lambda: self.can_eat())
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/synchronize.py", line 313, in wait_for
+    self.wait(waittime)
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/synchronize.py", line 268, in wait
+    self._lock.acquire()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/synchronize.py", line 261, in wait
+    return self._wait_semaphore.acquire(True, timeout)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/cristinasintesgarcia/filosofos/08_phil.py", line 19, in philosopher_task
+    table.wants_eat(num)
+  File "/Users/cristinasintesgarcia/filosofos/monitor.py", line 77, in wants_eat
+    self.fork_free.wait_for(lambda: self.can_eat())
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/synchronize.py", line 313, in wait_for
+    self.wait(waittime)
+  File "/opt/anaconda3/lib/python3.8/multiprocessing/synchronize.py", line 268, in wait
+    self._lock.acquire()
+KeyboardInterrupt
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-de-Cristina-3.local/Users/cristinasintesgarcia/filosofos[0m[27m[24m[J(base) cristinasintesgarcia@MacBook-Pro-de-Cristina-3 filosofos % [K[?2004h[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Wed Mar 16 16:20:01 2022
